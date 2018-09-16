@@ -1,1 +1,26 @@
 // Specific CSS for your home-page
+.profile-pic{
+  border-radius: 50%;
+  transform: rotate(180deg);
+  height: 350px;
+  width: 350px;
+  margin-top: 40px;
+}
+
+.full_name {
+  padding-top: 15px;
+}
+
+.page-heading {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.travel {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-around;
+}
+
