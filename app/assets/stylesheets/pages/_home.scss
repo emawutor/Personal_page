@@ -2,8 +2,8 @@
 .profile-pic{
   border-radius: 50%;
   transform: rotate(180deg);
-  height: 350px;
-  width: 350px;
+  height: 250px;
+  width: 250px;
   margin-top: 40px;
 }
 
@@ -22,5 +22,9 @@
   align-items: center;
   padding: 10px;
   justify-content: space-around;
+}
+
+p {
+  font-size: 15px;
 }
 

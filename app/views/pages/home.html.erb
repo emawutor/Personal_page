@@ -1,76 +1,88 @@
-<div class="container">
-  <div class="home">
-    <section class="header">
-      <div class="container">
-        <div class="row-align-items-center">
-          <div class="col-md-12 col-md-3-offset text-center">
-            <div>
-              <%= image_tag "profile.jpeg",class:"profile-pic"%>
-            </div>
-            <div class="full_name">
-              <span >Emmanuel Mawutor</span>
-            </div>
-          </div>
+<section class="header">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-8 col-md-offset-2">
+        <div>
+          <%= image_tag "profile.jpeg",class:"profile-pic"%>
+        </div>
+        <div class="full_name">
+          <span >Emmanuel Mawutor</span>
         </div>
       </div>
-    </section>
-    <section>
-      <div class="row">
-        <div class="container">
-          <div class="content">
-            <div class="page-heading" style="padding-bottom: 10px">
-              Who am I?
-            </div>
-            <div>
-              <p> What's up!</p>
-              <p>
-                I graduated with a business degree in Accounting & Finance, I realized business school was full of robots so I decided to learn coding to replace them.
-              </p>
-              <p>I joined a coding bootcamp, learn Ruby on Rails, built my first app, now learning Rust.</p>
-              <p> Attempting to beat the odds. Hope you enjoy my site!</p>
-            </div>
-          </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="page-heading" style="padding-bottom: 10px">
+        Who am I?
+        </div>
+        <div>
+          <p> What's up!</p>
+          <p>
+            I graduated with a business degree in Accounting & Finance then I realized business school was full of robots so I decided to learn coding to replace them. I'm kidding.
+          </p>
+          <p>
+            I am passionate about understanding the development of a business and seeking ways to improve business processes through innovation and creating value for end users.
+          </p>
+          <p> Attempting to beat the odds. Hope you enjoy my site!</p>
+        </div>
+        <div class="page-heading" style="padding-bottom: 10px">
+        Projects
+        </div>
+        <div>
+          <i class="far fa-hand-paper"></i>
+          <%= link_to "Helpies", "http://www.helpiness.services", style:"color:#f9cb5a", target: :_blank %> :
+          <span style="font-size: 15px">Created an alternative economy where college students can exchange help for help using a digital currency called helpies.</span>
         </div>
       </div>
-    </section>
-    <section style="padding-bottom: 20px">
-      <div class="row">
-        <div class="container">
-          <div class="project">
-            <div class="page-heading" style="padding-bottom: 10px">
-              Projects
-            </div>
-            <div>
-              <i class="far fa-hand-paper"></i>
-              <%= link_to "Helpies", "http://www.helpiness.services", style:"color:#f9cb5a", target: :_blank %> :
-              <span>Created an alternative economy where college students can exchange help for help using a digital currency called helpies.</span>
-            </div>
-          </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="page-heading" style="padding-bottom: 10px; padding-top: 10px;">
+          Skills
+        </div>
+        <p>
+          Ruby Rust JavaScript, Rails SQL/MySQL HTML/CSS and Microsoft Excel/ PowerPoint
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="page-heading" style="padding-bottom: 10px; padding-top: 10px;">
+         I love to Travel
+        </div>
+        <div class="travel buttons ">
+          <%= link_to "Cambodia", "#", class: "btn btn-link btn-xs", style: "border-radius: 20px; border-color: red; text-decoration:none;"  %>
+          <%= link_to "Cayman Islands", "#", class: "btn btn-default btn-xs", style: "border-radius: 20px" %>
+          <%= link_to "China", "#", class: "btn btn-ligh btn-xs", style: "border-radius: 20px; border-color: green; color: red;" %>
+          <%= link_to "Vietnam", "#", class: "btn btn-info btn-xs", style: "border-radius: 20px"  %>
+          <%= link_to "Jamaica", "#", class: "btn btn-warning btn-xs", style: "border-radius: 20px" %>
+          <%= link_to "Laos", "#", class: "btn btn-danger btn-xs", style: "border-radius: 20px"%>
+          <%= link_to "Portugal", "#", class: "btn btn-success btn-xs", style: "border-radius: 20px" %>
+          <%= link_to "Thailand", "#", class: "btn btn-xs", style: "border-radius: 20px; color:black;" %>
+          <%= link_to "Vietnam", "#", class: "btn btn-primary btn-xs", style: "border-radius: 20px"%>
         </div>
       </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="page-heading" style="padding-bottom: 10px">
-            I love to Travel
-          </div>
-          <div class="travel buttons ">
-            <%= link_to "Cambodia", "#", class: "btn btn-link", style: "border-radius: 20px; border-color: red;"  %>
-            <%= link_to "Cayman Islands", "#", class: "btn btn-default", style: "border-radius: 20px" %>
-            <%= link_to "China", "#", class: "btn btn-ligh btn-mdt", style: "border-radius: 20px; border-color: green; color: red;" %>
-            <%= link_to "Vietnam", "#", class: "btn btn-info btn-md", style: "border-radius: 20px"  %>
-            <%= link_to "Jamaica", "#", class: "btn btn-warning btn-md", style: "border-radius: 20px" %>
-            <%= link_to "Laos", "#", class: "btn btn-danger btn-md", style: "border-radius: 20px"%>
-            <%= link_to "Portugal", "#", class: "btn btn-success btn-md", style: "border-radius: 20px" %>
-            <%= link_to "Thailand", "#", class: "btn btn-md", style: "border-radius: 20px; color:black;" %>
-            <%= link_to "Vietnam", "#", class: "btn btn-primary btn-md", style: "border-radius: 20px"%>
-          </div>
-        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center" style="padding-top: 10px; padding-bottom: 20px;">
+        <a href="//github.com/emawutor" target="_blank" rel="noopener"><i class="fab fa-github-square fa-lg" style="color: #333"></i></a>
+        <a href="https://www.linkedin.com/in/emmanuelmawutor/" target="_blank" rel="noopener"><i class="fab fa-linkedin fa-lg" style="color: #0976b4"></i></a>
+        <a href="mailto:emawutor@indiana.edu"><i class="fas fa-envelope fa-lg" style="color: #979797"></i></a>
       </div>
-    </section>
+    </div>
   </div>
-</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
